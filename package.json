@@ -1,0 +1,28 @@
+{
+  "name": "motion-blur",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/motion-blur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasmn/motion-blur.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasmn/motion-blur/issues"
+  },
+  "homepage": "https://github.com/nicolasmn/motion-blur#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
